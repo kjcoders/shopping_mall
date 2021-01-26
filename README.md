@@ -1,2 +1,2 @@
 # shopping_mall
-our toy project for practice css, javascript, database
+Toy project for practice css, javascript, database.
