@@ -1,3 +1,5 @@
+/* navbar */
+
 #navbar {
   position: fixed;
   width: 100%;
@@ -19,6 +21,12 @@
 .navbar-brand img {
   width: 100px;
   height: 50px;
+}
+
+/* component */
+
+ul {
+  list-style: none;
 }
 
 #home {
@@ -43,4 +51,32 @@
 .category__item img {
   width: 160px;
   height: 240px;
+}
+
+/* footer */
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#footer {
+  background-color: rgb(165, 165, 165);
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer__title,
+.footer__email,
+.footer__rights {
+  color: whitesmoke;
+}
+
+.footer__title {
+  margin: 32px 0;
+}
+
+.footer__link i {
+  margin: 20px 0;
+  font-size: 50px;
+  color: whitesmoke;
 }
