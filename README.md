@@ -5,7 +5,7 @@ Toy project for practice css, javascript, database.
 ## follow this:
 1. npm install
 2. npm install mysql --save
-3. npm start
+3. npm start  
 
 
 
@@ -21,4 +21,8 @@ mysql -u bbb39d96e5a13c -h us-cdbr-east-03.cleardb.com -p
 b63d2f30
 -----------------------
 if you did 1 and 2, just executing 3.  
-Any help -> To contact Minjae.
+Any help -> To contact Minjae.  
+-----------------------
+# Our page URL..
+## https://kjmall.herokuapp.com/
+
