@@ -16,7 +16,7 @@ password : b63d2f30
 host name : us-cdbr-east-03.cleardb.com
 db_name : heroku_8656974046e2b96
 
-### for terminal
+## for terminal
 mysql -u bbb39d96e5a13c -h us-cdbr-east-03.cleardb.com -p
 b63d2f30
 -----------------------
