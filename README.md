@@ -20,5 +20,5 @@ db_name : heroku_8656974046e2b96
 mysql -u bbb39d96e5a13c -h us-cdbr-east-03.cleardb.com -p
 b63d2f30
 -----------------------
-if you did 1 and 2, just executing 3.
+if you did 1 and 2, just executing 3.  
 Any help -> To contact Minjae.
