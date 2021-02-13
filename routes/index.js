@@ -33,4 +33,16 @@ router.get('/shoes', function(req, res, next) {
 router.get('/sweater', function(req, res, next) {
   res.render('sweater', { title: 'Sweater' });
 })
+
+router.get('/myaccount', function(req, res, next) {
+  res.render('myaccount', {title : 'Myaccount'});
+})
+
+router.get('/cart', function(req, res, next) {
+  res.render('cart', {title: 'Cart'});
+})
+
+router.get('/qna', function(req, res, next) {
+  res.render('qna', {title: 'Q&A'});
+})
 module.exports = router;
