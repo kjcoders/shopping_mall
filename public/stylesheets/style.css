@@ -17,7 +17,7 @@ body {
 
 .main_description {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
   font-size: 2em;
 }
 
@@ -29,6 +29,11 @@ body {
   width: 100%;
   text-align: center;
   font-size: 50px;
+}
+
+.enjoy_btn:focus {
+  border: none;
+  outline: none;
 }
 
 #videobcg {
