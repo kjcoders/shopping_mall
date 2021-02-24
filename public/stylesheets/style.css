@@ -1,7 +1,7 @@
 /* index */
-html {
+/* html {
   overflow: hidden;
-}
+} */
 
 body {
   padding: 0px;
@@ -43,7 +43,7 @@ body {
   min-width: 100%;
   min-height: 100%;
   width: auto;
-  height: auto;
+  height: 80%;
   z-index: -1000;
   z-index: -1000;
   overflow: hidden;
