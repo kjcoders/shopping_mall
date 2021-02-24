@@ -26,6 +26,16 @@ h2 {
   color: #cccccc;
 }
 
+#formContent h3 {
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 30px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 26px;
+}
+
 /* STRUCTURE */
 
 .wrapper {
@@ -40,13 +50,13 @@ h2 {
 
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   background: #fff;
-  padding: 30px;
+  padding: 77px 15px 33px;
   width: 90%;
   max-width: 450px;
   position: relative;
-  padding: 0px;
+  /* padding: 0px; */
   -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -133,6 +143,10 @@ input[type="text"] {
   transition: all 0.5s ease-in-out;
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
+}
+
+#password {
+  margin-bottom: 37px;
 }
 
 input[type="text"]:focus {
@@ -227,6 +241,7 @@ input[type="text"]:placeholder {
   -webkit-animation-delay: 0.4s;
   -moz-animation-delay: 0.4s;
   animation-delay: 0.4s;
+  padding-bottom: 48px;
 }
 
 .fadeIn.second {

@@ -1,27 +1,39 @@
 /* index */
+/* html {
+  overflow: hidden;
+} */
+
 body {
   padding: 0px;
   margin: 0px;
 }
+
 .main {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 170px;
   font-size: 5em;
+  font-weight: bolder;
 }
 
 .main_description {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
   font-size: 2em;
 }
 
 .enjoy_btn {
   position: absolute;
+  border: none;
+  background: none;
   top: 600px;
   width: 100%;
   text-align: center;
   font-size: 50px;
-  color: var(--color-light-grey);
+}
+
+.enjoy_btn:focus {
+  border: none;
+  outline: none;
 }
 
 #videobcg {
@@ -31,8 +43,9 @@ body {
   min-width: 100%;
   min-height: 100%;
   width: auto;
-  height: auto;
+  height: 80%;
   z-index: -1000;
   z-index: -1000;
   overflow: hidden;
+  opacity: 0.5;
 }
