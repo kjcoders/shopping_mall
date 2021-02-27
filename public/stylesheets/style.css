@@ -43,7 +43,7 @@ body {
   min-width: 100%;
   min-height: 100%;
   width: auto;
-  height: 80%;
+  height: auto;
   z-index: -1000;
   z-index: -1000;
   overflow: hidden;
