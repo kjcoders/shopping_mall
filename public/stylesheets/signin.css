@@ -198,7 +198,7 @@ input[type="text"]:placeholder {
 }
 
 /* Simple CSS3 Fade-in Animation */
-/* @-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -261,7 +261,7 @@ input[type="text"]:placeholder {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
-} */
+}
 
 /* Simple CSS3 Fade-in Animation */
 .underlineHover:after {
