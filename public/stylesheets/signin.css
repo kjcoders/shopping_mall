@@ -58,8 +58,6 @@ h2 {
 }
 
 #formFooter {
-  /* background-color: #f6f6f6; */
-  /* border-top: 1px solid #dce8f1; */
   padding-top: 115px;
   text-align: center;
   -webkit-border-radius: 0 0 10px 10px;
@@ -82,7 +80,7 @@ h2.active {
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-  background-color: #56baed;
+  flex: 1 1 auto;
   border: none;
   color: white;
   width: 100%;
@@ -90,24 +88,32 @@ input[type="reset"] {
   padding: 0 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
-  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
-  -webkit-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: #39ace7;
+  background-position: right center;
+}
+
+input[type="submit"] {
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
 }
 
 input[type="button"]:active,
@@ -126,8 +132,6 @@ input[type="text"] {
   border-bottom: 2px solid #adadad;
   text-align: left;
   text-decoration: none;
-  /* display: inline-block; */
-  /* font-size: 15px; */
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -194,7 +198,7 @@ input[type="text"]:placeholder {
 }
 
 /* Simple CSS3 Fade-in Animation */
-@-webkit-keyframes fadeIn {
+/* @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -257,7 +261,7 @@ input[type="text"]:placeholder {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
-}
+} */
 
 /* Simple CSS3 Fade-in Animation */
 .underlineHover:after {
