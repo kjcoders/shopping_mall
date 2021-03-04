@@ -1,6 +1,5 @@
 /* BASIC */
 body {
-  font-family: "Poppins", sans-serif;
   height: 100vh;
 }
 
@@ -22,7 +21,7 @@ h2 {
 }
 
 #formContent h3 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: bolder;
   font-size: 30px;
   color: #333;
@@ -66,14 +65,14 @@ h2 {
 
 /* TABS */
 
-h2.inactive {
+/* h2.inactive {
   color: #cccccc;
 }
 
 h2.active {
   color: #0d0d0d;
   border-bottom: 2px solid #5fbae9;
-}
+} */
 
 /* FORM TYPOGRAPHY*/
 
@@ -152,7 +151,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid pink;
 }
 
 input[type="text"]:placeholder {
