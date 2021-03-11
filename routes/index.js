@@ -14,6 +14,10 @@ router.get('/signin', function(req, res, next) {
   res.render('signin', { title: 'Sign-in' });
 })
 
+router.get('/signup', function(req, res, next) {
+  res.render('signup', { title: 'Sign-up' });
+})
+
 router.get('/hat', function(req, res, next) {
   res.render('hat', { title: 'Hat' });
 })
